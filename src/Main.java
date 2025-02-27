@@ -62,7 +62,8 @@ public class Main
                         if (playAgain.equals("Y"))
                         {
                             gameOver = false;
-                        } else
+                        }
+                        else
                         {
                             gameOver = true;
                         }
