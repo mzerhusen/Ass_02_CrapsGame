@@ -75,7 +75,6 @@ public class Main
                 System.out.println("You rolled a " + dieOne + " and a " + dieTwo + " totaling " + crapsRoll + ", the point is set at " + crapsRoll);
                 crapsPoint = crapsRoll;
                 crapsRoll = 0;
-
                 while (crapsPoint != crapsRoll)
                 {
                     dieOne = dice.nextInt(6) + 1;
@@ -91,7 +90,6 @@ public class Main
                             System.out.print("Would you like to play again? Y/N ");
                             playAgain = input.nextLine();
                             playAgain = playAgain.toUpperCase();
-
                             if (playAgain.equals("Y") || playAgain.equals("N"))
                             {
                                 validPlayAgain = true;
